@@ -1,12 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #fff;
+}
+
 header {
   height: 50px;
   width: 100%;
   background-color: maroon;
   color: white;
 }
-nav ul{
-    list-style-type: none;
-    display:flex;
-    justify-content: space-between;
-    
+nav {
+  height: 50px;
+}
+nav ul {
+  height: inherit;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
 }
