@@ -1,0 +1,12 @@
+header {
+  height: 50px;
+  width: 100%;
+  background-color: maroon;
+  color: white;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    
+}
